@@ -1,10 +1,12 @@
 {
   "required": true,
-  "package": "io.gadjalin.holywrench.mixins",
+  "package": "io.gadjalin.holywrench.mixin",
+  "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "MixinDebugStickItem",
+    "MixinServerPlayerGameMode"
   ],
-  "client": [
-  ],
-  "server": [
-  ]
+  "injectors": {
+    "defaultRequire": 1
+  }
 }

@@ -25,11 +25,7 @@ config="${mod_id}.mixins.json"
     modId="neoforge"
     type="required"
     versionRange="${neo_version_range}"
-    # An ordering relationship for the dependency.
-    # BEFORE - This mod is loaded BEFORE the dependency
-    # AFTER - This mod is loaded AFTER the dependency
     ordering="NONE"
-    # Side this dependency is applied on - BOTH, CLIENT, or SERVER
     side="BOTH"
 
 [[dependencies.${mod_id}]]
@@ -38,6 +34,3 @@ config="${mod_id}.mixins.json"
     versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
-
-#[features.${mod_id}]
-#openGLVersion="[3.2,)"
