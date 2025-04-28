@@ -124,6 +124,7 @@ public abstract class MixinDebugStickItem extends Item {
     static {
         allowedProperties = Set.of(
                 BlockStateProperties.ATTACHED,
+                BlockStateProperties.BOTTOM,
                 BlockStateProperties.IN_WALL,
                 BlockStateProperties.LIT,
                 BlockStateProperties.OPEN,
